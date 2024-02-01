@@ -4,12 +4,12 @@ import { Metadata } from 'next';
  
 export const metadata: Metadata = {
   title: {
-    template: '%s | Acme Dashboard | @lllariogonzalez',
-    default: 'Acme Dashboard by @lllariogonzalez',
+    template: '%s | Acme Dashboard |',
+    default: 'Acme Dashboard',
   },
   description: 'The official Next.js Course Dashboard, built with App Router.',
   metadataBase: new URL('https://nextjs-dashboard-acme.vercel.app'),
-  authors: [{name: 'Mario Gonzalez', url:'https://www.linkedin.com/in/lllariogonzalez'}],
+  authors: [{name: 'Mario Gonzalez', url:'https://www.linkedin.com/in/victor-preston'}],
   keywords: ['Next.js 14', 'Acme', 'Dashboard', 'nextjs.org/learn', 'Server Actions'],
   openGraph: {
     title: 'Acme Dashboard',
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   twitter: {
     site: '@acme',
     description:'The official Next.js Learn Dashboard built with App Router.',
-    title:'Acme Dashboard by @lllariogonzalez',
-    creator:'@lllariogonzalez',
+    title:'Acme Dashboard by victorpreston',
+    creator:'victorpreston',
   },
 };
 
